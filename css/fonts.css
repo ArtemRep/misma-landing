@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "montserarrat";
+  src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "monts-light";
+  src: url("/fonts/static/Montserrat-Light.ttf") format("ttf");
+}
