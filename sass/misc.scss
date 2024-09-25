@@ -1,0 +1,20 @@
+%resetMarginResetPadding{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    @extend %resetMarginResetPadding;
+    font-family: 'montserarrat', sans-serif;
+}
+
+h1{
+    @extend %resetMarginResetPadding;
+}
+
+p{
+    @extend %resetMarginResetPadding;
+}
+
+// Не забыть воткнуть box-sizing: border-box;

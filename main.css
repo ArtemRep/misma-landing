@@ -1,14 +1,27 @@
 @font-face {
-  font-family: "montserarrat";
+  font-family: "montserarrat", sans-serif;
   src: url("/fonts/Montserrat/Montserrat-VariableFont_wght.ttf") format("TrueType");
 }
 @font-face {
   font-family: "open-sans";
   src: url("/fonts/Open_Sans/OpenSans-VariableFont_wdth.ttf") format("TrueType");
 }
-h1 {
-  color: red;
-  font-family: "open-sans";
-  font-weight: 700;
+@font-face {
+  font-family: "roboto-reg";
+  src: url("/fonts/Roboto/Roboto-Regular.ttf") format("TrueType");
+}
+p, h1, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "montserarrat", sans-serif;
+}
+
+.header__nav-ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 /*# sourceMappingURL=main.css.map */

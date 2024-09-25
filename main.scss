@@ -33,11 +33,15 @@
 // }
 
 //vars
-// $white: #f6f6f6;
+$white: #f6f6f6;
 // $blue: #33c1e3;
 
 // //layouts
 @import 'sass/fonts.scss';
+@import 'sass/misc.scss';
+@import 'sass/mixins.scss';
+
+@import 'sass/header.scss';
 // @import '_misc/mixins.scss';
 // @import '_misc/adjustment.scss';
 // @import '_misc/normalize.scss';
@@ -47,9 +51,4 @@
 // @import 'sections/header.scss';
 // @import 'sections/footer.scss';
 
-h1{
-    color: red;
-    font-family: 'open-sans';
-    font-weight: 700;
-}
 

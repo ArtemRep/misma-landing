@@ -1,0 +1,9 @@
+@mixin zeroing-out-list-styles{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+@mixin general-stylistic-design-of-links($linkTextDecor){
+    text-decoration: $linkTextDecor;
+}
