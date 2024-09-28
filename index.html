@@ -1,51 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Misma-Landing</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <meta name="viewport" content="width=960">
-        
-        <link rel="stylesheet" href="fonts/fontawesome-all.min.css">
-        <link rel="stylesheet" href="main.css">
-        
-        <script src="js/modernizr.js"></script>
-    
-    </head>
-    <body>
-        <header class="header">
-            <div class="main-wrapper">
-                <img class="header__logo" src="/img/logo.png" alt="">
-                <nav class="header__nav">
-                    <ul class="header__nav-ul">
-                        <li class="header__nav-item">
-                            <a class="header__nav-item-link" href="#">Home</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-item-link" href="#">Service</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-item-link" href="#">How it works</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-item-link" href="#">Team</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-item-link" href="#">Our blog</a>
-                        </li>
-                        <li class="header__nav-item">
-                            <a class="header__nav-item-link" href="#">Contact</a>
-                        </li>
-                        
-                    </ul>
-                </nav>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Misma-Landing</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <meta name="viewport" content="width=960">
+
+    <!-- <link rel="stylesheet" href="fonts/fontawesome-all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="main.css">
+
+    <script src="js/modernizr.js"></script>
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="main-wrapper">
+            <img class="header__logo" src="./img/logo.png" alt="">
+            <nav class="header__nav">
+                <ul class="header__nav-ul">
+                    <li class="header__nav-item">
+                        <a class="header__nav-item-link link-0" href="#hero">Home</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-item-link link-1" href="#services-link">Service</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-item-link link-2" href="#works-link">How it works</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-item-link link-3" href="#">Team</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-item-link link-4" href="#">Our blog</a>
+                    </li>
+                    <li class="header__nav-item">
+                        <a class="header__nav-item-link link-5" href="#">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+
+
+        <!-- !ГЛАВНАЯ-HERO -->
+        <section class="hero">
+            <div class="main-wrapper ">
+                <div class="hero__left-block">
+
+                    <h1 class="hero__header">A Perfect Landing Page For Your App Showcasing</h1>
+
+                    <div class="hero__desc">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                        commodo.
+                    </div>
+
+                    <div class="hero__btn-block">
+                        <a class="hero__btn-android" href="">
+                            <i class="fa-brands fa-android"></i>
+                            <div>
+                                <div>Get it on</div>
+                                <div class="hero__button-link_bold">Google Play</div>
+                            </div>
+                        </a>
+                        <a class="hero__btn-apple" href="">
+                            <i class="fa-brands fa-apple"></i>
+                            <div>
+                                <div>Download on</div>
+                                <div class="hero__button-link_bold">Apple Store</div>
+                            </div>
+                        </a>
+                        <!-- <a class="hero__btn-default" href="">button3</a> -->
+                    </div>
+                </div>
+                <img class="hero__right-block" src="./img/mobile-mockup.png" alt="">
             </div>
-        </header>
-        
-    </body>
+        </section>
+
+
+        <!-- !СЕКЦИЯ Services -->
+        <section class="services" id="services-link">
+            <div class="main-wrapper">
+                <h2 class="services__header"><span>Services</span></h2>
+                <div class="services__block-item">
+                    <article class="services__item">
+                        <div class="box-icon">
+                            <i class="fa-solid fa-heart"></i>
+                        </div>
+                        <h3>Made With love</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitatipn.
+                        </p>
+                        <a href="#">Read More</a>
+                    </article>
+
+                    <article class="services__item">
+                        <div class="box-icon">
+                            <i class="fa-solid fa-rocket"></i>
+                        </div>
+                        <h3>Clean Design</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitatipn.
+                        </p>
+                        <a href="#">Read More</a>
+                    </article>
+
+                    <article class="services__item">
+                        <div class="box-icon">
+                            <i class="fa-solid fa-layer-group"></i>
+                        </div>
+                        <h3>Easy To Customize</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitatipn.
+                        </p>
+                        <a href="#">Read More</a>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- !SECTION HOW IT WORKS -->
+        <section class="works" id="works-link">
+            <div class="main-wrapper">
+                <h2><span>How it works</span></h2>
+                <div>
+                    <div class="works__container">
+                        <h3>What you get in this landing page!</h3>
+                        <p>
+                            It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout.
+                            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
+                        </p>
+                        <ul>
+                            <li>
+                                All the Lorem Ipsum generators on the Internet tendto repeat predefined chunks as
+                                necessary.
+                            </li>
+                            <li>
+                                All the Lorem Ipsum generators on the Internet.
+                            </li>
+                            <li>
+                                All the Lorem Ipsum generators on the Internet tendto repeat predefined.
+                            </li>
+                            <li>
+                                All the Lorem Ipsum generators on the Internet.
+                            </li>
+                            <li>
+                                All the Lorem Ipsum generators on the Internet tendto repeat predefined.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <img src="./img/work-mobile.png" alt="">
+                </div>
+            </div>
+        </section>
+
+
+        <!-- СЕКЦИЯ TEAM -->
+        <section class="team" id="team-link">
+            <div class="main-wrapper">
+                <h2><span>Team</span></h2>
+                <div class="team-container">
+                    <div class="team-container__item">
+                        <figure>
+                            <img src="./img/member-1-255x260.jpg">
+                            <figcaption>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <div class="team-container__item-footer">
+                            <h3>James Doe</h3>
+                            <span>Android Developer</span>
+                        </div>
+                    </div>
+                    <div class="team-container__item">
+                        <figure>
+                            <img src="./img/member-3-255x260.jpg">
+                            <figcaption>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <div class="team-container__item-footer">
+                            <h3>Davidson</h3>
+                            <span>Team Lead</span>
+                        </div>
+                    </div>
+                    <div class="team-container__item">
+                        <figure>
+                            <img src="./img/member-4-255x260.jpg">
+                            <figcaption>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <div class="team-container__item-footer">
+                            <h3>Jack wyane</h3>
+                            <span>IOS Developer</span>
+                        </div>
+                    </div>
+                    <div class="team-container__item">
+                        <figure>
+                            <img src="img/member-1-255x260.jpg">
+                            <figcaption>
+                                <a href="#">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </figcaption>
+                        </figure>
+                        <div class="team-container__item-footer">
+                            <h3>James Doe</h3>
+                            <span>CEO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- !СЕКЦИЯ BLOG -->
+        <section class="blog" id="blog-link">
+            <div class="main-wrapper">
+                <h2><span>our blog</span></h2>
+                <div class="blog-container">
+                    <a href="#" class="blog-container__item">
+                        <div class="blog-container__image block-image1"></div>
+                        <div class="blog-container__item-text-container">
+                            <span>september 29, 2019</span>
+                            <p>
+                                Lorem ipsum dolor sit amet ipsum dolor
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="blog-container__item">
+                        <div class="blog-container__image block-image2"></div>
+                        <div class="blog-container__item-text-container">
+                            <span>september 29, 2019</span>
+                            <p>
+                                Lorem ipsum dolor sit amet ipsum dolor
+                            </p>
+                        </div>
+                    </a>
+                    <a href="#" class="blog-container__item">
+                        <div class="blog-container__image block-image3"></div>
+                        <div class="blog-container__item-text-container">
+                            <span>september 10, 2019</span>
+                            <p>
+                                Lorem ipsum dolor sit amet ipsum dolor
+                            </p>
+                        </div>
+                    </a>
+                     <a href="#" class="blog-container__item">
+                        <div class="blog-container__image block-image4"></div>
+                        <div class="blog-container__item-text-container">
+                            <span>september 29, 2017</span>
+                            <p>
+                                Lorem ipsum dolor sit amet ipsum dolor
+                            </p>
+                        </div>
+                    </a>
+                </div>
+                <a href="#" class="button">View All Posts</a>
+            </div>
+        </section>
+
+
+        <!-- !CONTACT -->
+        <section class="contact" id="contact-link">
+            <div class="main-wrapper">
+                <h2><span>contact us</span></h2>
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4972.3035908731745!2d-0.10978150764872587!3d51.45536938563688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876046df03da46d%3A0x399b22297847cfe6!2zUmFpbHRvbiBSZCwgTG9uZG9uLCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3QuNGP!5e0!3m2!1sru!2sby!4v1569500442187!5m2!1sru!2sby" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- !ФОРМА -->
+        <section class="form">
+            <div class="main-wrapper">
+                <div class="form__main-text">Subscribe To Our <span>NEWSLETTER</span></div>
+                <form>
+                    <input type="email" placeholder="Enter your email">
+                    <button type="submit">
+                        <i class="far fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="main-wrapper">
+            <img src="./img/footer-logo.png">
+            <div class="social-cont">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>Misma All Rights Reserved Papa</p>
+        </div>
+    </footer>
+
+</body>
+
 </html>
-
-
-
-
-

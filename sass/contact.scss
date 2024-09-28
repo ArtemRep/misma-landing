@@ -1,0 +1,71 @@
+.contact .map {
+    margin-top: 30px;
+}
+
+.form{
+    height: 200px;
+    background: url('./img/bg.jpg') no-repeat fixed;
+    background-position: 50% -50px;
+    background-size: cover;
+    position: relative;
+
+    & > .main-wrapper{
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+
+    form{
+        display: flex;
+        justify-content: center;
+    }
+
+    input[type="email"]{
+        background: transparent;
+        border: 1px solid #00D5C3;
+        color: #FFFFFF;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 300;
+        padding: 10px;
+        width: 450px;
+    }
+
+    button{
+        background: #00D5C3;
+        border: 1px solid #00D5C3;
+        color: #FFFFFF;
+        font-size: 22px;
+        width: 100px;
+        transition-duration: 0.3s;
+    }
+
+    &::after{
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(33, 42, 73, 0.6);
+        z-index: 1;
+    }
+}
+
+.form__main-text{
+    color: #00D5C3;
+    font-weight: 300;
+    margin-bottom: 20px;
+    font-size: 20px;
+
+    & > span{
+        color: white;
+        font-weight: 600;
+    }
+}
+
+

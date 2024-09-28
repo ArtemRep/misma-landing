@@ -34,7 +34,12 @@
 
 //vars
 $white: #f6f6f6;
-// $blue: #33c1e3;
+$headerBckgColor: #161c35;
+
+//outline
+.bb{
+    outline: 2px solid rgb(131, 131, 60);
+}
 
 // //layouts
 @import 'sass/fonts.scss';
@@ -42,13 +47,13 @@ $white: #f6f6f6;
 @import 'sass/mixins.scss';
 
 @import 'sass/header.scss';
-// @import '_misc/mixins.scss';
-// @import '_misc/adjustment.scss';
-// @import '_misc/normalize.scss';
-
-
-// //styles
-// @import 'sections/header.scss';
-// @import 'sections/footer.scss';
+@import 'sass/hero.scss';
+@import 'sass/services.scss';
+@import 'sass/how-it-works.scss';
+@import 'sass/team.scss';
+@import 'sass/blog.scss';
+@import 'sass/contact.scss';
+@import 'sass/footer.scss';
+@import 'sass/adaptiv.scss';
 
 
